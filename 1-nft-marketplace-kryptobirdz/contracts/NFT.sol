@@ -19,7 +19,7 @@ contract NFT is ERC721URIStorage {
   // setApprovalForAll allows us to do that with contract address
 
   // constructir set up our address
-  constructor(address markeplaceAddress) ERC721('KryptoBirdz', 'KBIRDZ') {
+  constructor(address marketplaceAddress) ERC721('KryptoBirdz', 'KBIRDZ') {
     contractAddress = marketplaceAddress;
   }
 
@@ -36,6 +36,6 @@ contract NFT is ERC721URIStorage {
     setApprovalForAll(contractAddress, true);
 
     //mint the token and set it for sale - return the id to do so
-    return new ItemId;
+    return newItemId;
   }
 }
