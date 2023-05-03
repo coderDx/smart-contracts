@@ -36,6 +36,7 @@ contract NFT is ERC721URIStorage {
     setApprovalForAll(contractAddress, true);
 
     //mint the token and set it for sale - return the id to do so
+    console.log('ID: ', newItemId)
     return newItemId;
   }
 }

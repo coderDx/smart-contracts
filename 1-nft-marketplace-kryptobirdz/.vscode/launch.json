@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Firefox",
+      "type": "firefox",
+      "request": "attach",
+      "url": "http://localhost:3000",
+      "program": "${workspaceFolder}/pages/index.js"
+
+    }
+  ]
+}

@@ -14,3 +14,13 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+Dx Notes
+
+Cold start dev server:
+1. Delete contents of `/config.js`.
+2. Start a node using `$ npx hardhat node`.
+3. run a deployment using `$ npx hardhat run scripts/deploy.js --network localhost`.
+4. Go into `/config.js` and add single quotes around hex keys.
+4. Run dev server using `$ npm run dev`.
+
